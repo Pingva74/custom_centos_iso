@@ -26,5 +26,9 @@ $ cd /home/alex/tools/centos/
 $ mkisofs -o /home/alex/tools/centos-cust.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -V 'CentOS 7 x86_64' -boot-load-size 4 -boot-info-table -R -J -v -T .
 
 Все, инсталим сентось, вопросов задавать и просить что либо ввести ось не будет
+
 user=user
 password=fdnjwtynjc
+
+
+подробности тут:  http://www.rhd.ru/docs/manuals/enterprise/RHEL-4-Manual/sysadmin-guide/s1-kickstart2-file.html
